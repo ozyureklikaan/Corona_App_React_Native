@@ -2,6 +2,12 @@
   "expo": {
     "name": "CoronaApp",
     "slug": "CoronaApp",
+    "sdkVersion": "39.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +26,12 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.kaanozyurekli.coronaapp",
+      "permissions": [],
+      "versionCode": 1,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7126368244915627~5330490790"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
