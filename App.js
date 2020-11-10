@@ -8,6 +8,7 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import CoronavirusComponent from './src/coronavirus';
 import axios from 'axios';
 import { Dimensions } from "react-native";
+import { AdMobBanner, AdMobInterstitial, PublisherBanner, AdMobRewarded, setTestDeviceIDAsync, } from 'expo-ads-admob';
 
 const screenWidth = Dimensions.get("window").width;
 const Tab = createMaterialBottomTabNavigator();
