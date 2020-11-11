@@ -216,7 +216,7 @@ export default class App extends Component {
 			<View style={styles.container}>
 				{/* ------------- AdMobBanner ------------- */}
 				<AdMobBanner 
-					style={{paddingTop: 5, paddingBottom: 5}}
+					style={{paddingTop: 5, paddingBottom: 5, alignItems: "center"}}
 					bannerSize="banner"
 					adUnitID={this.bannerAdId}
 					servePersonalizedAds={false}  
@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		paddingTop: 20,
-		backgroundColor: "#282b2d",
+		backgroundColor: "#282b2d"
 	},
 
 	tabIcon: {
