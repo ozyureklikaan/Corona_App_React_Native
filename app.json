@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CoronaApp",
-    "slug": "CoronaApp",
+    "name": "CountryHealth",
+    "slug": "CountryHealth",
     "sdkVersion": "39.0.0",
     "platforms": [
       "ios",
@@ -26,7 +26,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.kaanozyurekli.coronaapp",
+      "package": "com.kaanozyurekli.countryhealth",
       "permissions": [],
       "versionCode": 1,
       "config": {
